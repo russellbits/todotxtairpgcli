@@ -1,0 +1,28 @@
+{
+  "name": "todotxtairpgcli",
+  "version": "1.0.0",
+  "description": "todotxtairpgcli is a CLI with LangChain.js and Ollama integration that is trained on dealing with todo.txt files as a source for an RPG adventure.",
+  "main": "todo-rpg-cli.mjs",
+  "type": "module",
+  "bin": {
+    "todo-rpg-cli": "todo-rpg-cli.mjs"
+  },
+  "scripts": {
+    "start": "node todo-rpg-cli.mjs"
+  },
+  "dependencies": {
+    "@langchain/ollama": "latest",
+    "@langchain/core": "latest",
+    "langchain": "latest",
+    "js-yaml": "latest"
+  },
+  "keywords": [
+    "todo",
+    "rpg",
+    "langchain",
+    "ollama",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT"
+}

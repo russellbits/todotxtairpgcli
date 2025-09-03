@@ -1,0 +1,79 @@
+# TodoTxtAiRPG Character Sheet
+# This file tracks all character progression, stats, and inventory
+# separate from the todo.txt task list
+
+character:
+  # Basic Identity
+  name: "Ranger of the Endless Tasks"
+  species: "Elf"
+  class: "Ranger"
+  class_level: 1
+  class_title: "Purveyor of Cool"
+  
+  # Core Stats
+  experience_points: 631
+  xp_to_next_level: 370
+  health_points: 12
+  max_health: 12
+  mana_points: 8
+  max_mana: 8
+
+  # RPG Attributes
+  attributes:
+    strength:
+      current_score: 13
+      xp_to_next_level: 780
+    intelligence:
+      current_score: 16
+      xp_to_next_level: 800
+    wisdom:
+      current_score: 14
+      xp_to_next_level: 800
+    dexterity:
+      current_score: 16
+      xp_to_next_level: 800
+    constitution:
+      current_score: 12      
+      xp_to_next_level: 800
+    charisma:
+      current_score: 15
+      xp_to_next_level: 800
+
+# Treasure & Resources
+currency:
+  - name: "Gold Coins"
+    type: coin
+    amount: 127
+
+  - name: "Barer Bonds"
+    type: barer bonds
+    amount: 500
+
+  - name: "Bitcoin"
+    type: digital asset
+    amount: 0.00002
+
+# Inventory System
+inventory:
+  - Arrows (20)
+  - Bow
+  - Leather Armor
+
+# Special Items & Artifacts
+artifacts:
+  - name: "Keyboard of Swift Typing"
+    description: "A mystical keyboard that boosts coding productivity"
+    effect: "+2 Intelligence when used on @coding tasks"
+    rarity: "Common"
+    acquired_date: "2025-08-15"
+  
+  - name: "Tome of Productivity Wisdom"
+    description: "Ancient knowledge of task management"
+    effect: "+1 Wisdom for completed #project tasks"
+    rarity: "Uncommon"
+    acquired_date: "2025-08-20"
+
+# Metadata
+version: "1.0.0"
+created_date: "2025-08-28"
+last_updated: "2025-08-30"

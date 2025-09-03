@@ -1,0 +1,138 @@
+# TodoTxtAiRPG Campaign Module: Productivity Hero
+# A fantasy adventure campaign focused on general life organization and goal achievement
+
+name: Productivity Hero
+
+# Story Elements
+story:
+  prologue: |
+    Welcome, brave adventurer, to the Realm of Endless Tasks! 
+    
+    You have awakened in a mystical land where productivity itself is magic. Every task you complete strengthens the very fabric of reality, while procrastination feeds the shadow demons that threaten to plunge the world into chaos.
+    
+    As a newly awakened Productivity Hero, you must build your strength through daily quests, gather magical artifacts, and complete epic project adventures. The fate of both your productivity and the realm itself rests in your capable hands!
+    
+    Your first quest awaits...
+
+  chapter_themes:
+    1: "The Awakening - Learning the basics of productivity magic"
+    2: "Building Power - Developing consistent habits and routines"  
+    3: "Epic Quests - Tackling major projects and goals"
+    4: "Mastery - Becoming a legendary Productivity Hero"
+
+campaign:
+  name: "Productivity Hero"
+  description: "Transform your daily tasks into epic quests in a magical realm where productivity powers fuel your adventures"
+  version: "1.0.0"
+  genre: "Fantasy Adventure"
+  difficulty: "Balanced"
+  
+  # Theming and Flavor
+  setting:
+    world: "The Realm of Endless Tasks"
+    lore: "In this mystical land, every completed task strengthens the fabric of reality itself. Procrastination demons lurk in the shadows, while the Order of Getting Things Done guides heroes toward legendary productivity."
+    
+  narrator_voice: "epic_fantasy"  # Options: epic_fantasy, modern_casual, sci_fi, superhero
+
+# Encounters
+encounters:
+  - name: "Small Monster Gang"
+    examples: "goblin, skeleton, wolf"
+    description: "The player comes upon some group of monsters appropriate to the environment and setting they are in. Each monster is a task."
+    attribute: "strength"
+    type: "recur"
+    difficulty: "C,D,E"
+    reward: "Some gold"
+    
+  - name: "Large Obstacle"
+    description: "The player comes to a large obstacle like a cliff or a river; an obstacle that requires dexterity to pass."
+    attribute: "dexterity"
+    type: "one-off"
+    difficulty: "B"
+    reward: "none"
+    
+  - name: "Serious Monster"
+    description: "The player comes upon a singular dangerous monster."
+    attribute: "any"
+    type: "one-off"
+    difficulty: "A"
+    reward: "A lot of treasure and a random artifact from the campaign list"
+    
+  - name: "Eerie Location"
+    description: "The player comes to an eerie location that presents some difficulty in moving forward; a thicket or a foggy wood. The player needs to repeat a task 1-4 times until they get out."
+    attribute: "wisdom, intelligence, constitution"
+    type: "count"
+    difficulty: "E or less"
+    reward: "none"
+    
+  - name: "Ancient Puzzle"
+    description: "The player discovers mysterious ruins with intricate puzzles that require careful study and repeated attempts to solve."
+    attribute: "intelligence, wisdom"
+    type: "count"
+    difficulty: "C,D"
+    reward: "Knowledge artifact or spell scroll"
+    
+  - name: "Social Encounter"
+    description: "The player meets NPCs - merchants, nobles, or fellow adventurers - who require charm and persuasion to deal with effectively."
+    attribute: "charisma"
+    type: "one-off"
+    difficulty: "B,C"
+    reward: "Information, contacts, or social benefits"
+    
+  - name: "Endurance Trial"
+    description: "The player faces a test of stamina - climbing a mountain, surviving harsh weather, or enduring a long journey."
+    attribute: "constitution"
+    type: "recur"
+    difficulty: "C,D"
+    reward: "Health restoration or endurance boost"
+    
+  - name: "Epic Quest Chain"
+    description: "The player embarks on a legendary quest with multiple connected challenges that build toward a major goal."
+    attribute: "any"
+    type: "project"
+    difficulty: "A,B"
+    reward: "Major treasure, legendary artifact, and significant story progression"
+
+# Artifacts
+artifacts:
+  "Keyboard of Swift Typing":
+    effect: "+2 Intelligence XP for @coding tasks"
+    triggers: ["context:@coding"]
+    rarity: "Common"
+    
+  "Tome of Productivity Wisdom":
+    effect: "+1 Wisdom XP for completed #project tasks"  
+    triggers: ["task_type:#project"]
+    rarity: "Uncommon"
+    
+  "Debug Lens":
+    effect: "Reveals hidden bugs: +25% XP for @coding tasks"
+    triggers: ["context:@coding"]
+    rarity: "Rare"
+    
+  "Gauntlets of Might":
+    effect: "+3 Strength XP for physical tasks"
+    triggers: ["emoji:💪"]
+    rarity: "Uncommon"
+    
+  "Clock of Urgency":
+    effect: "Time mastery: +50% XP for overdue tasks"
+    triggers: ["overdue_task"]
+    rarity: "Rare"
+    
+  "Scroll of Focus":
+    effect: "Meditation mastery: +2 Wisdom XP for @mindfulness tasks"
+    triggers: ["context:@mindfulness"]
+    rarity: "Common"
+    
+  "Ring of Charisma":
+    effect: "Social grace: +2 Charisma XP for social tasks"
+    triggers: ["emoji:🌟"]
+    rarity: "Uncommon"
+
+# Campaign Metadata  
+metadata:
+  author: "TodoTxtAIRPG Community"
+  created_date: "2025-08-31"
+  compatible_versions: ["1.0.0"]
+  tags: ["fantasy", "general_productivity", "balanced", "beginner_friendly"]

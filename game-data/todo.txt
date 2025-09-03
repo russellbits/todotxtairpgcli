@@ -1,0 +1,53 @@
+(A) 2025-08-30 Create todotxtRPG campaign_sample-name.yaml standard @coding @writing +todorpg +AI +design +play #project !30&150 🧠
+(A) 2025-08-28 Create todotxtRPG todo.txt(rpg) standard @coding @writing +todorpg +AI +design +play #project !30&150 🧠
+(A) 2025-08-30 Add loading screen and curtain @coding +johnthecat #project !20&500  🧠
+(A) 2025-08-31 Initiate the automation process for multiple social postings. @coding +botshop !500 🧠
+(A) 2025-08-31 Get the AI prompts ready so you can re-initiate the TodoRPG. @coding +todorpg !100 ❤️
+(A) 2025-08-28 Go on to DCSS site about SNAP @chore +finance !20 ❤️
+(A) 2025-08-28 Read "Nexus" @reading +banapana #count !1|400 unit:page total:44 🌟
+(B) 2025-06-08 List Apple Color Macintosh @chores +ebay +springcleaning !100 🦉
+(B) 2025-05-05 Vibe Coding Kit prompts @coding +digibizcard #project !15&300 🧠
+(B) 2025-08-28 Write Chapter 39 @book +brotherdustfish +writing #project !25&1000 due:2025-09-22 🦉
+(B) 2025-08-28 Write Chapter 40 @book +brotherdustfish +writing #project !25&1000 due:2025-09-22 🦉
+(B) 2025-08-28 Write Chapter 41 @book +brotherdustfish +writing #project !25&1000 due:2025-09-22 🦉
+(B) 2025-08-28 Write Chapter 42 @book +brotherdustfish +writing #project !25&1000 due:2025-09-22 🦉
+(B) 2025-08-28 Write Chapter 43 @book +brotherdustfish +writing #project !25&1000 due:2025-09-22 🦉
+(B) 2025-08-28 Write Chapter 44 @book +brotherdustfish +writing #project !25&1000 due:2025-09-22 🦉
+(B) 2025-08-28 Write Chapter 45 @book +brotherdustfish +writing #project !25&1000 due:2025-09-22 🦉
+(B) 2025-08-28 Write Chapter 46 @book +brotherdustfish +writing #project !25&1000 due:2025-09-22 🦉
+(B) 2025-08-31 Play todotxtRPG for several tasks in a new AI @coding +todorpg +AI #project !30&150 🧠
+(B) 2025-08-28 Optimize dirty laundry AI Ollama @coding +brotherdustfish +writing #project !25&1000 🧠
+(B) 2025-08-31 Look into how to fill out a form, then save, then build. @research +digibizcard !40 🦉
+(C) 2025-05-05 Set complete v1.0 Feature List @coding +digibizcard #project !15&300 🧠
+(C) 2025-08-28 Write a bash file for Wordpress sync @coding +nicollebradfordplays 🧠
+(C) 2025-08-31 Zoom in on picture tile @coding +johnthecat #project !20&500  🧠
+(C) 2025-08-31 Web-based contact form (wire through Troped newsletters) @coding +johnthecat #project !40&500  🧠
+(D) 2025-06-08 Review and revise all current listings @chores +ebay +springcleaning !100 🦉
+(D) 2025-06-08 New Feature: email form @coding +digibizcard #project !10&300 🧠
+(E) 2025-08-28 Can I get my server on a webdav drive? @research 🦉
+(F) 2025-08-28 Write UI pattern article for birthdays/years (post) @writing +banapana +post !150 🌟
+(F) 2025-08-28 Write Tuning Social Media @writing +banapana +post !150 🌟
+(B) 2025-08-28 Write Review of "Nexus" @writing +banapana +post !150 🌟
+(F) 2025-08-28 Write Review of "The Society of the Mind" @writing +banapana +post !150 🌟
+(F) 2025-08-28 Set Up Trigger email for newsletter forms @coding +russellbits #project !300 🧠
+(F) 2025-08-31 Write initial ScamTube article @writing +banapana +post !150 🌟
+(G) 2025-08-28 Set Up automation that keeps form alive @coding +russellbits #project !500 🧠
+(H) 2025-08-31 Create the Economics pack @creative +ismisms !40 🧠
+(H) 2025-08-31 Create all the marketing channels for ismisms @creative +ismisms !40 🧠
+2025-08-31 1 Pomadoro any kind of exercise @exercise #recur !50 💪
+2025-08-31 1 Pomadoro journaling @writing +journal #recur !20 🦉
+2025-08-31 1 Pomadoro writing anything @writing #recur !50 🌟
+2025-08-28 Add additional flare to the messages @coding @design +gabinui #project !15&400 🤹
+2025-08-28 Change character-by-character response to word-by-word @coding +gabinui #project !10&400 🧠
+2025-08-28 Create a light/dark feature @coding +gabinui #project !50&400 🧠
+Figure how to get Ada on the command line @coding +dirtylaundry
+2025-08-28 Finish process diagram @design +digibizcard #project !20&300 🤹
+2025-08-28 Generate drop.zip for tiiny.site @coding +digibizcard #project !15&300 🧠
+2025-08-28 Improve responsiveness @coding +gabinui #project !20&400 🧠
+2025-08-28 Is the local.vcf protected? @research +digibizcard #project !10&300 🦉
+2025-08-30 Meditate @health #recur !10 unit:daily 🦉
+2025-08-30 Organize pantry @chores +organize !150 🤹
+2025-08-30 Organize tea + coffee drawer @chores +organize !150 🤹
+2025-08-30 Reading "Nexus" @reading +banapana #count !1|400 unit:page 🦉
+2025-08-30 Sober! @health #recur !3 ❤️
+2025-08-28 What photo manipulation tool is available? Does this make it an agent? @research +digibizcard #project !10&300 🦉
